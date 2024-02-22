@@ -15,3 +15,21 @@ Requirements:
     Implement the Page Object Model for better code organization.
     Document test cases, POM structure, and rationale.
 
+
+Detailed steps on cloning the  project and running it locally, and generating reports:
+
+Prerequisites:
+
+    Git: Ensure you have Git installed on your system. Download it from https://git-scm.com/ if needed.
+    Node.js and npm: Download and install Node.js from https://nodejs.org/. This will also install npm, the Node Package Manager.
+
+Steps:
+
+Clone the repository: git clone https://github.com/sparky0268/AmazonUIAutomationCypress.git
+Navigate into the cloned directory: cd AmazonUIAutomationCypress
+Install dependencies: npm install
+Run the Cypress test runner:npx cypress open
+Run tests and generate reports:
+    Run all tests: Click the "Run all specs" button in the Cypress Test Runner.
+    Run specific tests: Select individual test files or groups from the test runner tree.
+    Generate reports: Cypress automatically generates reports in various formats (HTML, JSON, Mochawesome) after each test run. You can find them in the cypress/reports directory.
